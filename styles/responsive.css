@@ -1,0 +1,131 @@
+/*laptop*/
+@media all and (max-width:1000px) {
+    .banner {
+        background-size: contain;
+        background-repeat: no-repeat;        
+    }
+    .name {
+        font-size: 24px;
+    }
+    .name .name-suffix {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width:860px) {
+    .banner {
+        background-size: contain;
+        background-repeat: no-repeat;  
+        height: 500px;      
+    }
+    .name {
+        font-size: 24px;
+    }
+    .name .name-suffix {
+        font-size: 12px;
+    }
+}
+
+
+/*tab*/
+@media all and (max-width:596px) {
+    .banner {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 350px;
+    }
+
+    .logo {
+        width: 80%;
+    }
+
+    .menu .menu-icon {
+        display: block;
+    }
+    
+    .menu {
+        width: 20%;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .description .hook-line {
+        font-size: 48px;
+    }
+    .description .sub-description {
+        font-size: 18px;
+    }
+
+    .description a {
+        height: 50px;
+        width: 300px;
+        line-height: 50px;
+        font-size: 24px;
+    }
+}
+
+/*phone*/
+@media all and (max-width:396px) {
+    .banner {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 235px;
+    }
+    .name {
+        display: none;
+    }
+    .short-logo-name {
+        display: block;
+        margin-top: 5px;
+        font-size: 24px;
+    }
+    .short-logo-name .name-suffix {
+        font-size: 18px;
+    }
+    .menu {
+        width: 25%;
+    }
+    .short-logo-name {
+        width: 75%;
+    } 
+    
+    .description .hook-line {
+        font-size: 32px;
+    }
+}
+
+/*phone*/
+@media all and (max-width:320px) {
+    .banner {
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 200px;
+    }
+    .name {
+        display: none;
+    }
+    .short-logo-name {
+        display: block;
+        margin-top: 5px;
+        font-size: 24px;
+    }
+    .short-logo-name .name-suffix {
+        font-size: 18px;
+    }
+    .menu {
+        width: 25%;
+    }
+    .short-logo-name {
+        width: 75%;
+    }   
+
+    .description .sub-description {
+        font-size: 12px;
+    }
+    .description .hook-line {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
